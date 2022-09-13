@@ -1,25 +1,17 @@
 {
   "name": "prueba-git",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "rimraf dist && parcel ./src/index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
   "devDependencies": {
-    "parcel": "^2.7.0",
     "rimraf": "^3.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PMentil/Demo-js.git"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PMentil/Demo-js/issues"
-  },
-  "homepage": "https://github.com/PMentil/Demo-js#readme",
-  "description": ""
+  }
 }
